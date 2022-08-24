@@ -26,7 +26,7 @@ Console.WriteLine ($"Вы ввели {result} положительных чис-
 /*
 void FindCrossPoint (double k1, double b1, double k2, double b2)
 {
-    double x = -(b1 - b2) / (k1 - k2);
+    double x = (b1 - b2) / (k1 - k2);
     double y = k1 * x + b1;
     x = Math.Round(x, 1);
     y = Math.Round(y, 1);
