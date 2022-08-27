@@ -1,5 +1,5 @@
 ﻿// Задача 41: Пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел больше 0 ввёл пользователь.
-
+/*
 int CountPositive (int [] arr)
 {
     int count = 0;
@@ -21,9 +21,9 @@ int result = CountPositive (array_from_string);
 
 Console.WriteLine ($"Вы ввели {result} положительных чис-ел (-а)!");
 
-
+*/
 //Задача 43: Напишите программу, которая найдёт точку пересечения двух прямых, заданных уравнениями y = k1 * x + b1, y = k2 * x + b2; значения b1, k1, b2 и k2 задаются пользователем.
-/*
+
 void FindCrossPoint (double k1, double b1, double k2, double b2)
 {
     double x = (b1 - b2) / (k1 - k2);
@@ -43,4 +43,3 @@ Console.Write("Задайте b2: ");
 double b2 = Convert.ToDouble(Console.ReadLine());
 
 FindCrossPoint (k1, b1, k2, b2);
-*/
